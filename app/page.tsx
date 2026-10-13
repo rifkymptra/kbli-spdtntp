@@ -276,6 +276,9 @@ export default function Home() {
                   className="bg-white rounded-2xl p-5 sm:p-6 border border-gray-100 hover:border-emerald-200 hover:shadow-xl hover:shadow-emerald-900/5 transition-all duration-300 flex flex-col h-full group"
                 >
                   <div className="mb-3">
+                    <div className="text-[10px] sm:text-[11px] bg-emerald-800 inline-block p-1 rounded-md text-white-600 font-bold uppercase tracking-wider mb-1 line-clamp-1" title={item.kategori}>
+                      {formatLabel(item.kelompok)}
+                    </div>
                     <div className="text-[10px] sm:text-[11px] text-emerald-600 font-bold uppercase tracking-wider mb-1 line-clamp-1" title={item.kategori}>
                       {formatLabel(item.kategori)}
                     </div>
